@@ -1,0 +1,28 @@
+/* tsconfig.json */
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useUnknownInCast": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "noErrorTruncation": true,
+    "allowedJsImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*", "index.ts", "vite.config.ts"],
+  "exclude": ["node_modules", "dist"]
+}

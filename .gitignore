@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+/backend/.venv
+/backedn/venv
+/backend/__pycache__
+/backend/*.pyc
+/backend/.pytest_cache
+
+# Database
+cloudpulse.db
+*.sqlite3
+
+# Build outputs
+/frontend/dist/
+/frontend/node_modules/
+
+# Environment variables
+/.env
+
+# Uvicorn server file
+/.uvicorn
+
+# IDE files
+/.idea/
+/*.tsproj
+/.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# CloudPulse specific
+/cloudpulse.db*
